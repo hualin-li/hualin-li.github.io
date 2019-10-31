@@ -3124,7 +3124,8 @@ input, select, textarea {
 			}
 
 		.wrapper.featured {
-			text-align: center;
+			text-align: center; 
+			background-image: url("h2y-noir.jpg");
 		}
 
 			.wrapper.featured > .inner {
