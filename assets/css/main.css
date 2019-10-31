@@ -3126,7 +3126,7 @@ input, select, textarea {
 		.wrapper.featured {
 			text-align: center; 
 			background-image: url("h2y-noir.jpg"); 
-			background-size: 100% 100%;
+			background-size: contain;
 		}
 
 			.wrapper.featured > .inner {
