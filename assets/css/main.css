@@ -3150,8 +3150,8 @@ input, select, textarea {
 
 				.wrapper.featured > .inner > .image {
 					display: block;
-					margin: 0 4em 2em 0;
-					width: 21em;
+					margin: 0 4em 2em 2em;
+					width: 16em;
 				}
 
 					.wrapper.featured > .inner > .image img {
