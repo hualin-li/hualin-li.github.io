@@ -55,26 +55,21 @@
 								<header>
 									<h3>Job Market Paper</h3>
 								</header>
-								<a href="jmp_hualin.pdf">&ldquo;<i>Choosing from Graphical Choice Architectures</i>&rdquo;</a> (click to download)
-									<ul style="font-size:14px; padding-left:2em"> 
-										<li><button class="button small" onclick="htoggle()">Abstract</button> <br/>
-											<div id="hhnt" style="display:none">
-												The revealed preference theory often considers choice from sets and introduces subjective notions, such as attention, to explain choice behavior. 
-												However, when we only observe choice from sets, we might fail to separate the preference from the effects of those subjective concepts and to answer whether the behavioral properties that are observed in experiments translate to the choice problems studied in the relevant applications. 
-												In the real world, the choice often involves, in our terminology, the choice architectures, which comprises the available alternatives and the observable information about alternatives, or the circumstances under which choice would be made. 
-												In this paper, we specify choice architectures as directed graphs on sets of alternatives and propose a model of choice from such choice architectures. 
-												We study both the choice function and correspondence and show that, under two sets of axioms that are similar in nature to the classical axioms, our choice function and correspondence are described, respectively, by two choice procedures incorporating sorting alternatives into preference maximization. 
-												The sorting procedure can be represented by the topological sorting of directed graphs, hence being independent of the preference. 
-												Our model is of interest since it separates the physical architecture dependency of choice from the preference maximization, which has substantial implications for the translation of choice, the formation mechanism of consideration sets, and stochastic choice. 
-												Later in the paper, we also present the application to shaping demand and revealing equilibrium. 
-												In particular, we study how the choice architectures can be an alternative language of game theory, where our choice correspondence reveals the Nash equilibrium.
-											</div>
-										</li>
-										<li>JEL--- D01, D11, D80</li>
-									</ul>
+								<a href="jmp_hualin.pdf">&ldquo;<i>Choosing from Graphical Choice Architectures</i>&rdquo;</a> (click to download) &nbsp; <button class="button small" onclick="jmpabs()">Abstract</button> <br/>
+									<div id="jmp" style="display:none">
+										The revealed preference theory often considers choice from sets and introduces subjective notions, such as attention, to explain choice behavior. 
+										However, when we only observe choice from sets, we might fail to separate the preference from the effects of those subjective concepts and to answer whether the behavioral properties that are observed in experiments translate to the choice problems studied in the relevant applications. 
+										In the real world, the choice often involves, in our terminology, the choice architectures, which comprises the available alternatives and the observable information about alternatives, or the circumstances under which choice would be made. 
+										In this paper, we specify choice architectures as directed graphs on sets of alternatives and propose a model of choice from such choice architectures. 
+										We study both the choice function and correspondence and show that, under two sets of axioms that are similar in nature to the classical axioms, our choice function and correspondence are described, respectively, by two choice procedures incorporating sorting alternatives into preference maximization. 
+										The sorting procedure can be represented by the topological sorting of directed graphs, hence being independent of the preference. 
+										Our model is of interest since it separates the physical architecture dependency of choice from the preference maximization, which has substantial implications for the translation of choice, the formation mechanism of consideration sets, and stochastic choice. 
+										Later in the paper, we also present the application to shaping demand and revealing equilibrium. 
+										In particular, we study how the choice architectures can be an alternative language of game theory, where our choice correspondence reveals the Nash equilibrium.
+									</div>
 								<script> 
-									function htoggle() {
-										var x = document.getElementById("hhnt");
+									function jmpabs() {
+										var x = document.getElementById("jmp");
 										if (x.style.display === "none") {
 											x.style.display = "block";
 										} else {
@@ -89,8 +84,8 @@
 									<h3>Working Papers</h3>
 								</header>
 								<ul style="text-align: left;">
-									<li>&ldquo;<i>Graphical Choice Architectures and Stochastic Choice</i>&rdquo; (in progress) &nbsp; <button class="button small" onclick="htoggle()">Abstract</button> <br />
-										<div id="hhnt" style="display:none">
+									<li>&ldquo;<i>Graphical Choice Architectures and Stochastic Choice</i>&rdquo; (in progress) &nbsp; <button class="button small" onclick="cascabs()">Abstract</button> <br />
+										<div id="casc" style="display:none">
 											This paper considers a model of choice from <i>graphical choice architectures</i>, directed graphs (digraphs) on sets of alternatives, which represent the observable choice-relevant information about the alternatives. 
 											In this domain, we attempt to unify the approaches of preference maximization and stochastic choice by studying the architecture dependency of choice frequency. 
 											We propose two axioms that can be viewed as the modifications of the Stochastic Transitivity axiom with respect to specific properties of directed graphs. 
@@ -99,9 +94,19 @@
 											It suggests that how the DM sorts information influences the random tie-breaking, hence playing a role in explaining the stochastic choice data.
 											This reasoning of the stochasticity is of interest because it indicates the possibility of leading choice frequency via shaping choice architectures, which has significant applications to the studies of marketing and game-theoretical analyses.
 										<div>
+										<script> 
+											function cascabs() {
+												var x = document.getElementById("casc");
+												if (x.style.display === "none") {
+													x.style.display = "block";
+												} else {
+													x.style.display = "none";
+												}
+											}
+										</script>
 									</li>
-									<li>&ldquo;<i>Uncertainty Attitude and Variable Information Structures,</i>&rdquo; <b>Revice and Resubmit</b> at <em>Journal of Economic Theory</em> &nbsp; <button class="button small" onclick="htoggle()">Abstract</button> <br /> 
-										<div id="hhnt" style="display:none"> 
+									<li>&ldquo;<i>Uncertainty Attitude and Variable Information Structures,</i>&rdquo; <b>Revice and Resubmit</b> at <em>Journal of Economic Theory</em> &nbsp; <button class="button small" onclick="uavisabs()">Abstract</button> <br /> 
+										<div id="uavis" style="display:none"> 
 											In the study of decision-making under uncertainty, information is often considered to be implicit and fixed. 
 											Hence, given two preferences revealing different uncertainty attitude, we might experience a difficulty to clearify whether one is/become more uncertainty-averse, or is simply facing a more ambiguous decision problem. 
 											Due to this limitation, seminal models often become uninformative about whether and how the uncertainty attitude observed in a particular problem translates into other applications.  
@@ -116,12 +121,22 @@ latter summarize the invariant properties across variable partitions.
 											It states that the uncertainty attitude is invariant across information structures yet is only revealed on the specific sub-domains determined by the given information structures. 
 											The translation property is of interest since (i) the ambiguity aversion can be explained as a manifestation of this property, and (ii) it gives insights into the applications to decision leading via designing information structures. 
 										<div>
+										<script> 
+											function uavisabs() {
+												var x = document.getElementById("uavis");
+												if (x.style.display === "none") {
+													x.style.display = "block";
+												} else {
+													x.style.display = "none";
+												}
+											}
+										</script>
 									</li>
 								</ul>
 							</section>
 								<p> &nbsp; </p> 
 							<section>
-								<ul class="actions special">
+								<ul class="actions special" style="text-align: left;">
 									<li><a href="rs_hualin.pdf" class="button icon solid fa-download">Research Statement</a></li>
 								</ul>
 							</section>
